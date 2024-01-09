@@ -1,0 +1,3 @@
+Hello
+
+My first Jira attachment via automation
