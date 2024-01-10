@@ -16,6 +16,11 @@ public class JiraTest {
 		// TODO Auto-generated method stub
 
 		System.out.println("----------JIRA PROJECT-----------------");
+
+		System.out.println("----------JIRA PROJECT-----------------");
+
+		System.out.println("----------JIRA PROJECT-----------------");
+
 		RestAssured.baseURI="http://localhost:8080";
 		
 		SessionFilter session = new SessionFilter();
