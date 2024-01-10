@@ -11,6 +11,8 @@ public class DynamicJson {
 
 	@Test
 	public void addBook() {
+		System.out.println("ADD BOOK METHOD");
+		
 		
 		RestAssured.basePath="http://216.10.245.166";
 		String response=given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
